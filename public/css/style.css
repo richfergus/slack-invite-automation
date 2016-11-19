@@ -7,7 +7,7 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+background: #fff url(../images/white_rose.jpg) center top no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
@@ -50,16 +50,16 @@ margin: 0 0 10px 0;
 
 
 h1 strong{
-font-size: 38px;
+font-size: 50px;
 font-weight: 700;
 }
 
 h2{
 	text-align: center;
-	font-weight: 300;
-	font-size: 20px;
-		color: #ffffff;
-
+	font-weight: bold;
+	font-size: 25px;
+	color: #efc20b;
+	text-shadow: 2px 2px #000000;
 }
 
 h2 strong{
