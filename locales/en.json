@@ -1,5 +1,6 @@
 {
   "HEADER": "Enter your email below to join %s on Slack!",
+  "DISCP_TEXT": "When you enter your address (below), this app will have Slack send you an invite to our ASD Organization. Once you have signed up, you will be able to directly connect to ASD developers and other members using the ASD application. ",
   "ENTER_EMAIL": "Enter Your Email Address",
   "ENTER_TOKEN": "Enter the invite token you were given",
   "TITLE": "Join the %s community on Slack!"
