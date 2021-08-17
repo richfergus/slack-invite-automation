@@ -19,6 +19,7 @@ router.post('/invite', function(req, res) {
           set_active: true
         }
       }, function(err, httpResponse, body) {
+        console.log(err)
         // body looks like:
         //   {"ok":true}
         //       or
