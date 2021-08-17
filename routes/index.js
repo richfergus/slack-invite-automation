@@ -19,7 +19,6 @@ router.post('/invite', function(req, res) {
           set_active: true
         }
       }, function(err, httpResponse, body) {
-        console.log(err)
         // body looks like:
         //   {"ok":true}
         //       or
@@ -32,6 +31,8 @@ router.post('/invite', function(req, res) {
             message: 'Success! Check "'+ req.body.email +'" for an invite from Slack.'
           });
         } else {
+          console.log(body.error);
+          
           var error = body.error;
           if (error === 'already_invited' || error === 'already_in_team') {
             res.render('result', {
